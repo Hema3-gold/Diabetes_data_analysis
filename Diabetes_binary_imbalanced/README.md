@@ -3,11 +3,36 @@
 - **Dataset**: `diabetes_binary_health_indicators_BRFSS2015.csv`
 - **Target**: Binary — `0` (No Diabetes), `1` (Diabetes)
 - **Challenge**: Highly imbalanced dataset (~85% No Diabetes)
-- **Approach**:
-  - EDA (distribution, correlations)
-  - SMOTE for handling imbalance
-  - Logistic Regression, Random Forest, and XGBoost models
-- **Best Model**: XGBoost with ~83% accuracy and highest F1-score
-- **Key Insights**:
-  - Age, BMI, General Health, and HighBP are top predictors
-  - SMOTE improved recall for minority class (diabetic)
+
+---
+
+## 🔍 Project Overview
+
+- Performed EDA and identified key patterns using class distribution and correlation
+- Addressed class imbalance using SMOTE
+- Trained and evaluated Logistic Regression, Random Forest, and XGBoost
+- Final model selected: **XGBoost**
+
+---
+
+## 📊 Key Visuals
+
+### 🎯 Class Distribution
+![Class Distribution](class_distribution.png)
+
+### 🌟 Feature Importance (XGBoost)
+![Feature Importance](Feature_importance.png)
+
+---
+
+## ✅ Best Model
+- **XGBoost** achieved the highest accuracy and F1-score
+- Performed best at detecting the minority (diabetic) class
+
+---
+
+## 💡 Key Insights
+- Important predictors: Age, BMI, General Health, High Blood Pressure
+- SMOTE significantly improved recall for diabetic cases
+
+---
