@@ -21,7 +21,7 @@
 ![Class Distribution](class_distribution.png)
 
 ### 🌟 Feature Importance (XGBoost)
-![Feature Importance](Feature importance.png)
+![Feature Importance](Feature_importance.png)
 
 ---
 
