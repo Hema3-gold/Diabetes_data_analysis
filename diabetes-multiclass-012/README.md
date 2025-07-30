@@ -24,6 +24,10 @@
 
 ### 🧩 Confusion Matrix
 - Shows how well the model predicts each class
+![Confusion Matrix](confusion_matrix.png)
+
+### 🧩 Confusion Matrix
+- Shows how well the model predicts each class
 ![Confusion Matrix](screenshots/confusion_matrix.png)
 
 - **Insights**:
