@@ -22,6 +22,9 @@
 
 ### 🌟 Feature Importance (XGBoost)
 ![Feature Importance](Feature_importance.png)
+
+### 🧩 Confusion Matrix (XGBoost)
+![Confusion Matrix](confusion_matrix.png)
 ---
 
 ## ✅ Best Model
