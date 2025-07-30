@@ -1,13 +1,40 @@
-# 🩺 Diabetes Prediction (Balanced 50/50 Binary Classification)
+# 🩺 Diabetes Prediction (Balanced 50/50 Dataset)
 
 - **Dataset**: `diabetes_binary_5050split_health_indicators_BRFSS2015.csv`
-- **Target**: Binary — `0` (No Diabetes), `1` (Diabetes) — **balanced**
-- **Goal**: Evaluate model performance when class imbalance is removed
-- **Approach**:
-  - EDA, class distribution checks
-  - Feature importance, scaling
-  - Trained Logistic Regression, Random Forest, XGBoost
-- **Best Model**: XGBoost with high accuracy and balanced performance
-- **Insights**:
-  - Dataset balance improved Logistic Regression significantly
-  - Top predictors remain consistent: Age, BMI, GenHlth, PhysHlth
+- **Target**: Binary — `0` (No Diabetes), `1` (Diabetes)
+- **Advantage**: Perfectly balanced classes — no need for oversampling
+
+---
+
+## 🔍 Project Overview
+
+- Cleaned and explored dataset
+- Performed feature importance analysis
+- Trained Logistic Regression, Random Forest, and XGBoost
+- Compared model performance with the imbalanced version
+
+---
+
+## 📊 Key Visuals
+
+### 🎯 Balanced Class Distribution
+![Class Distribution](class_distribution.png)
+
+### 🌟 Feature Importance (XGBoost)
+![Feature Importance](Feature_importance.png)
+
+### 📈 Model Performance Comparison
+![Model Comparison](Model_comparison.png)
+
+---
+
+## ✅ Best Model
+- **XGBoost** showed the best balance of precision and recall
+- Logistic Regression performed significantly better here compared to imbalanced data
+
+---
+
+## 💡 Key Insights
+- Top predictors: HighBP, HighChol, GenHlth
+
+---
